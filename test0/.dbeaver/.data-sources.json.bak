@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1936cc1de0f-91a8d51a07c8dab": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "hemnet.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\haha0722\\Documents\\github\\SQL-Kanilla-Hedin-d24\\test0\\data\\hemnet.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\haha0722\\Documents\\github\\SQL-Kanilla-Hedin-d24\\test0\\data\\hemnet.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-193637d11ee-6f11420aef37932c": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "grouping.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\haha0722\\Documents\\github\\SQL-Kanilla-Hedin-d24\\08_grouping_data\\data\\grouping.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\haha0722\\Documents\\github\\SQL-Kanilla-Hedin-d24\\08_grouping_data\\data\\grouping.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

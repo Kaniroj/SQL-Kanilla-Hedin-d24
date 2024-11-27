@@ -1,0 +1,1 @@
+{"resources":{"sql/clean_glossary.sql":{"default-datasource":"duckdb_jdbc-19367c35746-47677a4cd437ec32","default-catalog":"strings"},"sql/string_functions.sql":{"default-datasource":"duckdb_jdbc-19367c35746-47677a4cd437ec32","default-catalog":"strings"}}}
